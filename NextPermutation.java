@@ -3,7 +3,7 @@ class Solution {
         int n = nums.length;
         int gola_index = -1;
 
-        // Step 1: Find the first decreasing element from the end
+        // Step 1: Find the first decreasing element from the 
         for (int i = n - 1; i > 0; i--) {
             if (nums[i] > nums[i - 1]) {
                 gola_index = i - 1;
